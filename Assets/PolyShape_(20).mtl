@@ -1,0 +1,53 @@
+newmtl ice
+map_Kd -o 0 0 -s 1 1 dfsdgdasfgd.png
+Kd 1 1 1
+d 1
+
+newmtl stone
+map_Kd -o 0 0 -s 1 1 walls.png
+Kd 0.8659752 0.8159043 0.8962264
+d 1
+
+newmtl ProBuilderDefault
+map_Kd -o 0 0 -s 1 1 GridBox_Default.png
+Kd 1 1 1
+d 1
+
+newmtl New_Material
+map_Kd -o 0 0 -s 1 1 flooring.png
+Kd 1 1 1
+d 1
+
+newmtl frost
+map_Kd -o 0 0 -s 1 1 Blue_Ice_001_COLOR.jpg
+bump -o 0 0 -s 1 1 Blue_Ice_001_NORM.jpg
+map_d -o 0 0 -s 1 1 Blue_Ice_001_DISP.png
+Kd 1 1 1
+d 1
+
+newmtl fences
+map_Kd -o 0 0 -s 1 1 dfsdgdasf2gd.png
+Kd 1 1 1
+d 1
+
+newmtl snow
+map_Kd -o 0 0 -s 1 1 snow.png
+Kd 1 1 1
+d 1
+
+newmtl golden
+map_Kd -o 0 0 -s 1 1 golden.png
+disp -o 0 0 -s 1 1 golden.png
+Kd 0.9339623 0.7106861 0.118948
+d 1
+
+newmtl New_Material_1
+Kd 0.8267966 0.2494215 0.8962264
+d 1
+
+newmtl fire
+map_Kd -o 0 0 -s 1 1 fire.png
+map_Ke -o 0 0 -s 1 1 fire.png
+Kd 1 1 1
+d 1
+
