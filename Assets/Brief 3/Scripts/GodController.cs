@@ -8,6 +8,7 @@ public class GodController : MonoBehaviour
     //Sets which key to press.
     public KeyCode IntiateTestButton = KeyCode.Space;
     public KeyCode IntiateSpawn = KeyCode.S;
+    
 
     public bool BeginSpawning = false;
 
@@ -26,7 +27,7 @@ public class GodController : MonoBehaviour
             ChangeTarget();
         }
 
-
+        
 
         //Press Button, go to Script.
         if (Input.GetKeyDown(IntiateSpawn))
